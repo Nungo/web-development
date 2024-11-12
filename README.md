@@ -1,0 +1,4 @@
+DATA ENTRY: 12/11/2024
+This project was to create a simple calculator using html, css and javascript.
+This is a project part of the virtual internship at Codsoft specifically web development
+It was fun to play around with css to design my calculator as I saw fit and what I picked up on that I used to struggle with as I used to shy away from css as I found it challenging, complicated and frustrating before is that if I want to change something in styling that falls under one class or section, I can simply add another class in that specific area or line that I want to change. It finally clicked that css is the same way as systems and dealing with objects like I am used to doing in Salesforce. A parent object can have more than one child object. In this case it would be my parent div, with child divs in that one div class.
