@@ -1,0 +1,152 @@
+/* Highlights Page Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to left, lightblue, violet);
+}
+
+/* Navigation Bar */
+nav {
+    background: linear-gradient(to right, lightgray, violet);
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid deeppink;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    font-family: Arial;
+}
+
+.nav-links a:hover {
+    color: deeppink;
+}
+.section-title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.highlights-container {
+    background: linear-gradient(to bottom, purple, pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.highlights-container {
+    max-width: 1200px;
+    margin: 6rem auto;
+    padding: 2rem;
+}
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.video-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+}
+
+.highlight-description {
+    flex: 1;
+    padding: 1rem;
+}
+.highlight-description h3{
+    background: linear-gradient(to right, lightgray, violet);
+    text-align: center;
+    color: deeppink;
+    font-style: bold;
+    font-size: 20px;
+}
+.highlight-description p{
+    font-style: italic;
+    background-color: lightblue;
+}
+.video-container video {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to left, lightgray, violet);
+    padding: 20px 0;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    border-top: 1px solid deeppink;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.footer-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,74 @@
+.references-section {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+
+.references-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.references-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 2rem;
+}
+
+.reference-item {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease;
+}
+
+.reference-item:last-child {
+    border-bottom: none;
+}
+
+.reference-item:hover {
+    background-color: #f8f9fa;
+}
+
+.reference-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    margin: 0;
+}
+
+.reference-title {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.reference-source {
+    font-style: italic;
+}
+
+.reference-text a {
+    color: #2070e0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.reference-text a:hover {
+    color: #1550a0;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .references-section {
+        padding: 1rem;
+    }
+    
+    .reference-item {
+        padding: 1rem;
+    }
+    
+    .reference-text {
+        font-size: 0.9rem;
+    }
+}
