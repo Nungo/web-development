@@ -59,7 +59,7 @@ nav {
 /* Home Page Styles */
 .hero {
     height: 100vh;
-    background-image: url('../naomi-images/naomi\ campbell.avif');
+    background-image: url('../naomi-images/naomi-hero.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
