@@ -1,0 +1,2 @@
+naomi-videos1 filter=lfs diff=lfs merge=lfs -text
+naomi-videos2 filter=lfs diff=lfs merge=lfs -text
